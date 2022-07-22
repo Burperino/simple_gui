@@ -8,3 +8,5 @@ async function window(width: number, height: number, file: string, title: string
     await proc.status();
     await Deno.remove("temp.exe");
 }
+
+export {window};
