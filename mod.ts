@@ -15,5 +15,3 @@ async function window(width: number, height: number, file: string, title: string
     await proc.status();
     await Deno.remove("temp.exe");
 }
-
-window(800, 600, "test.html", "Test");
